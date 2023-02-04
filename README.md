@@ -57,7 +57,7 @@ Create a new table that holds the current version of the database schema. Simpli
 Write a stored procedure that receives as a parameter a version number and brings the database to that version.
 
 ### 4
-Assess the performance of your design. To record different test configurations and results, you create the following relational structure:
+Assess the performance of your design. To record different test configurations and results, create the following relational structure:
 
 - Tests – holds data about different tests;
 - Tables – holds data about tables that can take part in tests;
