@@ -35,7 +35,7 @@ You must use:
 
 Observations:
 - You can use views in at most 3 queries.
-- You can change the relational structure created for the first lab.
+- You can change the relational structure created previously.
 - Your queries must be relevant to the problem domain.
 
 ### 3
@@ -75,7 +75,8 @@ Assess the performance of your design. To record different test configurations a
 Implement a set of stored procedures to run tests and store their results. Your tests must include at least 3 tables:
 - a table with a single-column primary key and no foreign keys;
 - a table with a single-column primary key and at least one foreign key;
-- a table with a multicolumn primary key,
+- a table with a multicolumn primary key;
+
 and 3 views:
 - a view with a SELECT statement operating on one table;
 - a view with a SELECT statement that operates on at least 2 different tables and contains at least one JOIN operator;
